@@ -8,7 +8,8 @@ bar_icon.addEventListener('click', function () {
 let changIcon = function (icon) {
     icon.classList.toggle('fa-times')
 }
-// nav sticky start
+// -------- nav bar end ---------
+// --------- nav sticky start -----------
 window.addEventListener('scroll', () => {
     let scrolling = this.scrollY;
     console.log(scrolling)
@@ -19,7 +20,8 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('nav_sticky')
     }
 })
-// slider part start 
+// --------- nav sticky end -----------
+// ---------- slider part start  ---------
 $('.features_slider').slick({
     dots: true,
     infinite: true,
@@ -56,3 +58,4 @@ $('.features_slider').slick({
         }
     ]
 });
+// ---------- slider part end --------
